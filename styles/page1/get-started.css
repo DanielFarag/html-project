@@ -1,0 +1,116 @@
+.get-started{
+	padding-right: 40px;
+	margin: 40px 0;
+	padding: 60px 0;
+	background-color:rgb(245 245 245);
+}
+
+
+.get-started .description h6{
+	text-transform: uppercase;
+	font-size: 15px;
+	color:var(--primary-darker);
+	margin-bottom: 20px;
+}
+
+.get-started .description h2{
+	display: block;
+	font-weight: bolder;
+	font-size: 40px;
+	margin-bottom: 23px;
+}
+
+.get-started .description p{
+	display: block;
+	color: rgb(104, 104, 104);
+	font-size: 18px;
+	line-height: 23px;
+	margin: 20px auto;
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+.get-started .list-items {
+	padding-right: 40px;
+	margin: 40px 0 20px 0;
+}
+
+.get-started .list-items .step {
+	display: flex;
+	align-items: start;
+}
+
+.get-started .list-items .step .icon{
+	color: var(--primary-darker);
+	font-size: 20px;
+	padding: 4px 10px;
+	position: relative;
+	border: 1px solid var(--primary-darker);
+	border-radius: 50%;
+	font-weight: bolder;
+}
+
+
+.get-started .list-items .step > div.desc{
+	padding: 0 25px;
+}
+
+.get-started .list-items .step .desc .title{
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+.get-started .list-items .step .desc .description{
+	color: rgb(71, 71, 71);
+}
+
+
+
+.get-started .action{
+	text-align: center;
+}
+
+.get-started .action  a{
+	display: inline-block;
+	padding: 15px 30px;
+	border-radius: 5px;
+	margin: 15px 0;
+	font-size: 12px;
+	background-color: var(--primary);
+	font-weight: bolder;
+	color:white;
+	transition: background-color 0.5s;
+}
+.get-started .action a:hover{
+	background-color: var(--primary-darker);
+	cursor: pointer;
+}
+
+
+.get-started.blue{
+	background-color: #624bff;
+	color: white;
+}
+
+.get-started.blue #score{
+	background-color: white;
+	color: black;
+}
+.get-started.blue .description p{
+	color: rgb(255, 255, 255);
+}
+.get-started.blue{
+	margin-bottom: 0 !important;
+}
+
+
+
+

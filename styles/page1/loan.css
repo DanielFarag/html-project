@@ -1,0 +1,144 @@
+/* Load Section */
+
+#personal-loan{
+	margin: 160px 0;
+}
+
+#loan-content{
+	box-sizing: border-box;
+	padding-right: 40px;
+	margin-bottom: 40px;
+}
+
+#loan-content h6{
+	text-transform: uppercase;
+	font-size: 10px;
+	color:var(--primary-darker);
+	margin-bottom: 20px;
+}
+
+#loan-content h2{
+	display: block;
+	font-weight: bolder;
+	font-size: 40px;
+	margin-bottom: 23px;
+}
+
+#loan-content p.description{
+	display: block;
+	color: rgb(104, 104, 104);
+	font-size: 15px;
+	line-height: 23px;
+	margin-bottom: 23px;
+}
+
+
+#loan-content p.trust{
+	display: block;
+	color: rgb(104, 104, 104);
+	font-size: 10px;
+	line-height: 23px;
+	text-transform: uppercase;
+	margin-bottom: 23px;
+}
+
+#loan-content ul{
+	margin: 25px 0;
+}
+#loan-content ul li{
+	display: inline-block;
+}
+
+#loan-content ul li a{
+	padding: 10px;
+	border: 1px solid var(--primary-darker);
+	border-radius: 10px;
+	font-size: 12px;
+	transition: background-color 0.5s, color 0.2s;
+}
+
+#loan-content ul li a{
+	padding: 10px;
+	border: 1px solid var(--primary-darker);
+	border-radius: 10px;
+	font-size: 12px;
+	color: var(--primary-darker)
+}
+
+
+#loan-content ul li:first-child a{
+	background-color: var(--primary-darker);
+	color: white;
+}
+
+#loan-content ul li a:hover{
+	color:white;
+	background-color: var(--primary-darker);
+	cursor: pointer;
+}
+
+
+#loan-content p.trust i{
+	color: rgb(45, 158, 0);
+	margin-right: 5px;
+}
+
+#loan-images{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+#loan-images .family{
+	width: 95%;
+	height: 500px;
+	border-radius: 10px;
+}
+#loan-images .stats-1{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: -80px;
+	bottom: 110px;
+}
+#loan-images .stats-2{
+	position: absolute;
+	bottom: -10px;
+	left: -110px;
+}
+#loan-images .dots-1{
+	z-index: -1;
+	bottom: -44px;
+	right: 57px;
+	width: 134px;
+	position: absolute;
+}
+
+#loan-images .dots-2{
+	z-index: -1;
+	width: 150px;
+	top: -40px;
+	left: -40px;
+	position: absolute;
+}
+
+
+
+@media (max-width:749px) {
+	#loan-images .stats-1{
+		right: -40px;
+	}
+}
+
+
+
+@media (max-width:749px) {
+	#loan-images .stats-1{
+		right: -40px;
+	}
+
+	#loan-images .stats-2{
+		left: -60px;
+	}
+	
+}

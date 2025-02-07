@@ -1,0 +1,35 @@
+#stats{
+	padding-right: 40px;
+	padding: 120px 0 60px 0;
+	background-color:rgb(245 245 245);
+}
+
+
+#stats h2{
+	display: block;
+	font-weight: bolder;
+	font-size: 40px;
+	margin-bottom: 23px;
+}
+
+
+
+
+#stats .list-items {
+	padding-right: 40px;
+	margin: 40px 0 20px 0;
+}
+
+#stats .list-items .step {
+	margin-bottom: 80px;
+}
+
+#stats .list-items .step .title{
+	font-weight: bolder;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+#stats .list-items .step .description{
+	color: rgb(71, 71, 71);
+}

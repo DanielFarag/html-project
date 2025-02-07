@@ -1,0 +1,86 @@
+/* Load Section */
+
+#goals{
+	margin: 160px 0;
+}
+
+#goal-content{
+	box-sizing: border-box;
+	padding-right: 110px;
+	margin-bottom: 40px;
+}
+
+#goal-content h6{
+	text-transform: uppercase;
+	font-size: 10px;
+	color:var(--primary-darker);
+	margin-bottom: 20px;
+}
+
+#goal-content h2{
+	display: block;
+	font-weight: bolder;
+	font-size: 40px;
+	margin-bottom: 23px;
+}
+
+#goal-content p.description{
+	display: block;
+	color: rgb(104, 104, 104);
+	font-size: 15px;
+	line-height: 23px;
+	margin-bottom: 23px;
+}
+
+
+#goal-content ul{
+	margin: 25px 0;
+}
+#goal-content ul li{
+	display: inline-block;
+}
+
+#goal-content ul li a{
+	padding: 10px;
+	border: 1px solid var(--primary-darker);
+	border-radius: 10px;
+	font-size: 12px;
+	transition: background-color 0.5s, color 0.2s;
+}
+
+#goal-content ul li a{
+	padding: 10px;
+	border: 1px solid var(--primary-darker);
+	border-radius: 10px;
+	font-size: 12px;
+	color: var(--primary-darker)
+}
+
+
+#goal-content ul li:first-child a{
+	background-color: var(--primary-darker);
+	color: white;
+}
+
+#goal-content ul li a:hover{
+	color:white;
+	background-color: var(--primary-darker);
+	cursor: pointer;
+}
+
+
+#goal-content p#trust i{
+	color: rgb(45, 158, 0);
+	margin-right: 5px;
+}
+
+#goal-images{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+#goal-images .family{
+	height: 400px;
+	border-radius: 10px;
+}
