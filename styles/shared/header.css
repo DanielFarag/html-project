@@ -69,7 +69,7 @@ header #main-header #menu ul li.dropdown > a::after{
 	content: "\2304";
 	color: rgb(148, 148, 148);
 	position: absolute;
-	bottom: 10px;
+	bottom: 5px;
 	right: -6px;
 	font-size: 20px;
 	transition: color 0.1s;
@@ -230,7 +230,7 @@ header #mobile-nav-menu #mbmenu ul li.dropdown > a::after{
 	content: "\2304";
 	color: rgb(148, 148, 148);
 	position: absolute;
-	top: -15px;
+	bottom: 4px;
 	right: 0;
 	font-size: 20px;
 }

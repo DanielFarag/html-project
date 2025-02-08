@@ -1,0 +1,18 @@
+#credit-score{
+	padding-right: 40px;
+	padding: 60px 0;
+	background-color: #624bff;
+	color: white;
+
+}
+
+#credit-score .description p{
+	font-size: 24px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#credit-score .actions a{
+	padding: 20px 30px;
+}
+

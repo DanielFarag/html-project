@@ -10,29 +10,6 @@
 	margin-bottom: 40px;
 }
 
-#loan-content h6{
-	text-transform: uppercase;
-	font-size: 10px;
-	color:var(--primary-darker);
-	margin-bottom: 20px;
-}
-
-#loan-content h2{
-	display: block;
-	font-weight: bolder;
-	font-size: 40px;
-	margin-bottom: 23px;
-}
-
-#loan-content p.description{
-	display: block;
-	color: rgb(104, 104, 104);
-	font-size: 15px;
-	line-height: 23px;
-	margin-bottom: 23px;
-}
-
-
 #loan-content p.trust{
 	display: block;
 	color: rgb(104, 104, 104);
@@ -42,41 +19,14 @@
 	margin-bottom: 23px;
 }
 
-#loan-content ul{
+.actions{
 	margin: 25px 0;
 }
-#loan-content ul li{
+
+.actions li{
 	display: inline-block;
+	margin-right: 6px;
 }
-
-#loan-content ul li a{
-	padding: 10px;
-	border: 1px solid var(--primary-darker);
-	border-radius: 10px;
-	font-size: 12px;
-	transition: background-color 0.5s, color 0.2s;
-}
-
-#loan-content ul li a{
-	padding: 10px;
-	border: 1px solid var(--primary-darker);
-	border-radius: 10px;
-	font-size: 12px;
-	color: var(--primary-darker)
-}
-
-
-#loan-content ul li:first-child a{
-	background-color: var(--primary-darker);
-	color: white;
-}
-
-#loan-content ul li a:hover{
-	color:white;
-	background-color: var(--primary-darker);
-	cursor: pointer;
-}
-
 
 #loan-content p.trust i{
 	color: rgb(45, 158, 0);
@@ -90,7 +40,7 @@
 }
 
 #loan-images .family{
-	width: 95%;
+	width: 100%;
 	height: 500px;
 	border-radius: 10px;
 }
@@ -124,15 +74,32 @@
 
 
 
-@media (max-width:749px) {
+@media (min-width:800px) and (max-width:1300px)  {
 	#loan-images .stats-1{
 		right: -40px;
 	}
+
+	#loan-images .stats-2{
+		left: -60px;
+	}
+
+}
+
+@media (min-width:749px) and (max-width:799.9999px)  {
+	#loan-images .stats-1{
+		right: -20px;
+	}
+
+	#loan-images .stats-2{
+		left: -30px;
+	}
+
 }
 
 
 
 @media (max-width:749px) {
+
 	#loan-images .stats-1{
 		right: -40px;
 	}

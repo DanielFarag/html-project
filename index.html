@@ -17,6 +17,9 @@
 
 
 
+        <!-- Sections Helper -->
+        <link rel="stylesheet" href="./styles/page1/style.css">
+
         <!-- Sections  -->
         <link rel="stylesheet" href="./styles/page1/loan.css">
         <link rel="stylesheet" href="./styles/page1/choose-us.css">
@@ -25,11 +28,7 @@
         <link rel="stylesheet" href="./styles/page1/goals.css">
         <link rel="stylesheet" href="./styles/page1/stats.css">
         <link rel="stylesheet" href="./styles/page1/reviews.css">
-
-
-        
-        <!-- overwrite styles -->
-        <link rel="stylesheet" href="./styles/page1/style.css">
+        <link rel="stylesheet" href="./styles/page1/credit-score.css">
 
     </head>
     <body>
@@ -152,20 +151,20 @@
                 <div class="row">
                     
                     <div class="col-6 col-md-12 col-sm-12 " id="loan-content">
-                        <h6>Modern Layout Design</h6>
-                        <h2>Get your Personal Loan Approved Instantly!</h2>
-                        <p class="description">Launch your new startup with this simple, professional Bootstrap 5 template. Great for new businesses in the fintech space.</p>
-                        <ul>
-                            <li><a>Explore Now</a></li>
-                            <li><a>Check your Eligibility</a></li>
+                        <h6 class="section-subtitle">Modern Layout Design</h6>
+                        <h2 class="section-title">Get your Personal Loan Approved Instantly!</h2>
+                        <p class="section-description">Launch your new startup with this simple, professional Bootstrap 5 template. Great for new businesses in the fintech space.</p>
+                        <ul class="actions">
+                            <li><a class="action-btn primary-btn">Explore Now</a></li>
+                            <li><a class="action-btn">Check your Eligibility</a></li>
                         </ul>
                         <p class="trust"> <i class="fa-regular fa-square-check"></i> TRUSTED FINANCIAL PARTNER FOR MILLIONS - SINCE 2014 </p>
                     </div>
 
                     <div class="col-6 col-md-12 col-sm-12" id="loan-images">
                         <img class="family" src="./images/hero-modern-img.jpg" alt="">
-                        <img class="stats-1" src="./images/hero-graphic-1.png" alt="">
-                        <img class="stats-2" src="./images/hero-graphic-2.png" alt="">
+                        <img class="stats-1 col-sm-hidden col-md-hidden" src="./images/hero-graphic-1.png" alt="">
+                        <img class="stats-2 col-sm-hidden col-md-hidden" src="./images/hero-graphic-2.png" alt="">
                         <img class="dots-1" src="./images/dots.png" alt="">
                         <img class="dots-2" src="./images/dots-2.png" alt="">
                     </div>
@@ -181,9 +180,9 @@
 
                 <div class="row">
                     
-                    <div class="col-6 col-md-12 col-sm-12 " id="choice-description-content">
-                        <h6>Why chooses us design</h6>
-                        <h2>Top Reasons why you should choose us</h2>
+                    <div class="col-6 col-md-12 col-sm-12">
+                        <h6 class="section-subtitle">Why chooses us design</h6>
+                        <h2 class="section-title">Top Reasons why you should choose us</h2>
                     </div>
 
                 </div>
@@ -240,21 +239,24 @@
 
                 <div class="row">
                     
-                    <div class="col-12 col-md-12 col-sm-12 text-center description">
-                        <h6>Tab Section Design</h6>
-                        <h2>Find the best product for you</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dui urna sed tortor volutpat imperdiet.</p>
+                    <div class="col-12 col-md-12 col-sm-12 text-center">
+                        <h6 class="section-subtitle">Tab Section Design</h6>
+                        <h2 class="section-title">Find the best product for you</h2>
+                        <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dui urna sed tortor volutpat imperdiet.</p>
                     </div>
 
                 </div>
 
                 <div class="row">
-                    <div class="col-12 col-md-12 col-sm-12 text-center actions">
-                        <a class="active" href="#">Personal Loans</a>
-                        <a href="#">Credit Cards</a>
-                        <a href="#">Mortgages</a>
-                        <a href="#">Banking</a>
-                        <a href="#">Insurance</a>
+
+                    <div class="col-12 col-md-12 col-sm-12 text-center">
+                        <ul class="actions">
+                            <li><a class="action-btn primary-btn">Personal Loans</a></li>
+                            <li><a class="action-btn">Credit Cards</a></li>
+                            <li><a class="action-btn">Mortgages</a></li>
+                            <li><a class="action-btn">Banking</a></li>
+                            <li><a class="action-btn">Insurance</a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -448,16 +450,16 @@
         </section>
 
 
-        <section class="get-started">
+        <section id="get-started">
                         
             <div class="container">
 
                 <div class="row">
                     
-                    <div class="col-12 col-md-12 col-sm-12 text-center description">
-                        <h6>How it work design</h6>
-                        <h2>Getting started is easy</h2>
-                        <p>When it comes to loan options, applying online with Borrow is a breeze—and with low rates and $0 fees, even the math is easy.</p>
+                    <div class="col-12 col-md-12 col-sm-12 text-center">
+                        <h6 class="section-subtitle">How it work design</h6>
+                        <h2 class="section-title">Getting started is easy</h2>
+                        <p class="section-description">When it comes to loan options, applying online with Borrow is a breeze—and with low rates and $0 fees, even the math is easy.</p>
                     </div>
 
                 </div>
@@ -467,7 +469,7 @@
                                 
                     <div class="col-4 col-md-12 col-sm-12 step">
                         <span class="icon">1</span>
-                        <div class="desc">
+                        <div class="content">
                             <h3 class="title">Sign up for an account</h3>
                             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis neque soit simple dummy step.</p>
                         </div>
@@ -475,7 +477,7 @@
                     
                     <div class="col-4 col-md-12 col-sm-12 step">
                         <span class="icon">2</span>
-                        <div class="desc">
+                        <div class="content">
                             <h3 class="title">Choose a account or card</h3>
                             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis neque soit simple dummy step.</p>
                         </div>
@@ -484,7 +486,7 @@
                     
                     <div class="col-4 col-md-12 col-sm-12 step">
                         <span class="icon">3</span>
-                        <div class="desc">
+                        <div class="content">
                             <h3 class="title">Accomplish your goals</h3>
                             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis neque soit simple dummy step.</p>
                         </div>
@@ -512,13 +514,14 @@
                 <div class="row">
                     
                     <div class="col-6 col-md-12 col-sm-12 " id="goal-content">
-                        <h6>About us section design</h6>
-                        <h2>Whatever your goals are, we can help you.</h2>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dui urna sed tortor. Ut volutpat imperdiet quam malesuada nunc orci, at sollicitudin et.</p>
-                        <ul>
-                            <li><a>Explore Now</a></li>
-                            <li><a>Check your Eligibility</a></li>
+                        <h6 class="section-subtitle">About us section design</h6>
+                        <h2 class="section-title">Whatever your goals are, we can help you.</h2>
+                        <p  class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dui urna sed tortor. Ut volutpat imperdiet quam malesuada nunc orci, at sollicitudin et.</p>
+                        <ul class="actions">
+                            <li><a class="action-btn primary-btn">Our Mission</a></li>
+                            <li><a class="action-btn">Meet the Team</a></li>
                         </ul>
+
                     </div>
 
                     <div class="col-6 col-md-12 col-sm-12" id="goal-images">
@@ -567,11 +570,7 @@
                     </div>
                 </div>
             </div>
-
         </section>
-
-
-
 
 
 
@@ -582,8 +581,8 @@
                 <div class="row">
                     
                     <div class="col-12 col-md-12 col-sm-12 text-center description">
-                        <h6>Testimonial Design</h6>
-                        <h2>Our customers love us</h2>
+                        <h6 class="section-subtitle">Testimonial Design</h6>
+                        <h2 class="section-title">Our customers love us</h2>
                     </div>
 
                 </div>
@@ -601,11 +600,11 @@
                                 <i class="fa-solid fa-star"></i>
                             </div>
                             <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis neque soit simple dummy step."</p>
-                            <div class="profile">
+                            <div class="reviewer-profile">
                                 <img src="./images/avatar-1.jpg" alt="">
-                                <div class="name">
-                                    <h3>Darlene Webb</h3>
-                                    <span>Housing</span>
+                                <div class="review-details">
+                                    <h3 class="reviewer-name">Darlene Webb</h3>
+                                    <span class="reviewer-title">Housing</span>
                                 </div>
                             </div>
                         </div>
@@ -624,11 +623,11 @@
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, magna at luctus laoreet, eros odio placerat augue, eu ultrices augue purus et augue.
                                 Lo consecat  at augue, eu ultrices augue purus et augue.
                                 "</p>
-                            <div class="profile">
+                            <div class="reviewer-profile">
                                 <img src="./images/avatar-2.jpg" alt="">
-                                <div class="name">
-                                    <h3>Darlene Webb</h3>
-                                    <span>Housing</span>
+                                <div class="review-details">
+                                    <h3 class="reviewer-name">Darlene Webb</h3>
+                                    <span class="reviewer-title">Housing</span>
                                 </div>
                             </div>
                         </div>
@@ -644,11 +643,11 @@
                                 <i class="fa-solid fa-star"></i>
                             </div>
                             <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis neque soit simple dummy step."</p>
-                            <div class="profile">
+                            <div class="reviewer-profile">
                                 <img src="./images/avatar-3.jpg" alt="">
-                                <div class="name">
-                                    <h3>Darlene Webb</h3>
-                                    <span>Housing</span>
+                                <div class="review-details">
+                                    <h3 class="reviewer-name">Darlene Webb</h3>
+                                    <span class="reviewer-title">Housing</span>
                                 </div>
                             </div>
                         </div>
@@ -661,23 +660,17 @@
 
 
 
-        <section class="get-started blue" >
+        <section id="credit-score">
                         
-            <div class="container">
+            <div class="container" style="justify-content: center;">
 
                 <div class="row">
-                    
                     <div class="col-12 col-md-12 col-sm-12 text-center description">
-                        <h2>Get started - it's FREE!</h2>
+                        <h6 class="section-title">Get started - it's FREE!</h6>
                         <p>Receive & understand your credit score and access relevant financial information & offers.</p>
-                    </div>
-
-                </div>
-
-
-                <div class="row action">
-                    <div class="col-12 col-md-12 col-sm-12 step">
-                        <a id="score">Get Your Score Free</a>
+                        <ul class="actions">
+                            <li><a class="action-btn light-btn">Check your Eligibility</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -4,27 +4,6 @@
 	padding: 130px 0;
 }
 
-#reviews h6{
-	text-transform: uppercase;
-	font-size: 15px;
-	color:var(--primary-darker);
-	margin-bottom: 20px;
-}
-
-#reviews h2{
-	display: block;
-	font-weight: bolder;
-	font-size: 40px;
-	margin-bottom: 23px;
-}
-
-
-
-
-
-
-
-
 #reviews .list-items > div {
 	margin: 40px 0 20px 0;
 }
@@ -62,24 +41,25 @@
 }
 
 
-#reviews .list-items .review .profile{
+#reviews .reviewer-profile{
 	display: flex;
 	align-items: center;
 }
 
 
-#reviews .list-items .review .profile img{
+#reviews .reviewer-profile img{
 	width: 30px;
 	border-radius: 50%;
 	margin-right: 10px;
 }
 
 
-#reviews .list-items .review .profile .name h3{
+#reviews .reviewer-profile .reviewer-name{
 	font-weight: bolder;
 	font-size: 12px;
 }
-#reviews .list-items .review .profile .name span{
+
+#reviews .reviewer-profile .reviewer-title{
 	font-size: 10px;
 	color: rgb(41, 41, 41);
 }

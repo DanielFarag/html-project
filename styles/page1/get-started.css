@@ -1,4 +1,4 @@
-.get-started{
+#get-started{
 	padding-right: 40px;
 	margin: 40px 0;
 	padding: 60px 0;
@@ -6,49 +6,17 @@
 }
 
 
-.get-started .description h6{
-	text-transform: uppercase;
-	font-size: 15px;
-	color:var(--primary-darker);
-	margin-bottom: 20px;
-}
-
-.get-started .description h2{
-	display: block;
-	font-weight: bolder;
-	font-size: 40px;
-	margin-bottom: 23px;
-}
-
-.get-started .description p{
-	display: block;
-	color: rgb(104, 104, 104);
-	font-size: 18px;
-	line-height: 23px;
-	margin: 20px auto;
-	width: 50%;
-}
-
-
-
-
-
-
-
-
-
-
-.get-started .list-items {
+#get-started .list-items {
 	padding-right: 40px;
 	margin: 40px 0 20px 0;
 }
 
-.get-started .list-items .step {
+#get-started .list-items .step {
 	display: flex;
 	align-items: start;
 }
 
-.get-started .list-items .step .icon{
+#get-started .list-items .step .icon{
 	color: var(--primary-darker);
 	font-size: 20px;
 	padding: 4px 10px;
@@ -59,26 +27,29 @@
 }
 
 
-.get-started .list-items .step > div.desc{
+#get-started .list-items .step > .content{
 	padding: 0 25px;
+	margin-bottom: 40px;
 }
 
-.get-started .list-items .step .desc .title{
+#get-started .list-items .step .content .title{
 	font-weight: bolder;
 	margin-bottom: 10px;
+	font-size: 20px;
 }
 
-.get-started .list-items .step .desc .description{
+#get-started .list-items .step .content .description{
+	font-size: 15px;
 	color: rgb(71, 71, 71);
 }
 
 
 
-.get-started .action{
+#get-started .action{
 	text-align: center;
 }
 
-.get-started .action  a{
+#get-started .action  a{
 	display: inline-block;
 	padding: 15px 30px;
 	border-radius: 5px;
@@ -89,25 +60,25 @@
 	color:white;
 	transition: background-color 0.5s;
 }
-.get-started .action a:hover{
+#get-started .action a:hover{
 	background-color: var(--primary-darker);
 	cursor: pointer;
 }
 
 
-.get-started.blue{
+#get-started.blue{
 	background-color: #624bff;
 	color: white;
 }
 
-.get-started.blue #score{
+#get-started.blue #score{
 	background-color: white;
 	color: black;
 }
-.get-started.blue .description p{
+#get-started.blue .description p{
 	color: rgb(255, 255, 255);
 }
-.get-started.blue{
+#get-started.blue{
 	margin-bottom: 0 !important;
 }
 

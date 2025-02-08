@@ -45,6 +45,12 @@ footer a{
 	border: unset;
     padding: 15px;
 }
+@media (max-width:300px) {
+	.subscribe .input {
+		width: 200px;
+	}
+	
+}
 
 
 .subscribe .input #email{

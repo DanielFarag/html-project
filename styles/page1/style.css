@@ -1,1 +1,62 @@
 /* overwrite predefined styles */
+
+.section-subtitle{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	color:var(--primary-darker);
+	margin-bottom: 20px;
+}
+
+.section-title{
+	display: block;
+	font-weight: bolder;
+	font-size: 40px;
+	margin-bottom: 23px;
+}
+
+.section-description{
+	display: block;
+	color: rgb(104, 104, 104);
+	font-size: 15px;
+	line-height: 23px;
+	margin-bottom: 23px;
+}
+
+
+.action-btn{
+	padding: 10px;
+	border: 1px solid var(--primary-darker) !important;
+	border-radius: 10px;
+	font-size: 12px;
+	transition: background-color 0.5s, color 0.2s;
+
+	color: var(--primary-darker);
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+.action-btn:hover{
+	color:white !important;
+	background-color: var(--primary-darker) !important;
+	cursor: pointer;
+}
+
+
+
+
+.primary-btn{
+	background-color: var(--primary-darker) !important;
+	color: white !important;
+	font-weight: bolder;
+}
+
+
+.light-btn{
+	background-color: white !important;
+	color: black !important;
+	font-weight: bolder;
+}
+
+
