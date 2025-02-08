@@ -1,5 +1,5 @@
 ## Live URl
-Url: [link](http://www.google.com)
+Url: [Link](https://danielfarag.github.io/html-project/)
 
 ## Page Structure
 - ./`{page-name}`.html
@@ -15,4 +15,4 @@ Url: [link](http://www.google.com)
 
 
 ## Sample Page [ only header and footer ]
-Url: [link](http://www.google.com)
+Url: [Sample](https://danielfarag.github.io/html-project/sample.html)
