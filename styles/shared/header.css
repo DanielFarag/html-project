@@ -230,7 +230,7 @@ header #mobile-nav-menu #mbmenu ul li.dropdown > a::after{
 	content: "\2304";
 	color: rgb(148, 148, 148);
 	position: absolute;
-	bottom: 10px;
+	top: -10px;
 	right: 0;
 	font-size: 20px;
 }
