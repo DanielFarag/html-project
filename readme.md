@@ -1,4 +1,4 @@
-## Live URl
+## Live URL
 - Index: [Link](https://danielfarag.github.io/html-project/)
 - Car Loan: [Link](https://danielfarag.github.io/html-project/car-loan.html)
 - Students Loan: [Link](https://danielfarag.github.io/html-project/students-loan.html)
