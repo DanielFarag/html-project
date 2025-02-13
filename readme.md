@@ -15,7 +15,3 @@
 ## Shared Files [ included in all pages ]
 - ./styles/shared/{`reset`|`grid`|`colors`|`global`|`header`|`footer`}.css
 - ./scripts/shared/scripts.js
-
-
-## Sample Page [ only header and footer ]
-Url: [Sample](https://danielfarag.github.io/html-project/sample.html)
