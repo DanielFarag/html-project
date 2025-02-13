@@ -93,9 +93,7 @@ body {
 }
 
 
-/* ==================================
-   Buy Button Styles
-   ================================== */
+
 
 
 
@@ -167,10 +165,11 @@ body {
    Form Card Styles (Right Side)
    ================================== */
 .hero-form {
+    background-color: #007bff;
 }
 
 .form-card {
-    background-color: white; 
+    background-color: rgb(235, 235, 75); 
     border-radius: 5px;
     padding: 24px;
 }
@@ -178,7 +177,6 @@ body {
 .form-title {
     font-size: 1.8em;
     margin-bottom: 15px;
-    color: #333;
 }
 
 .form-description {
