@@ -4,7 +4,7 @@ const testimonialsList = [
     title:
       "“I loved the customer service you guys provided me. That was very nice and patient with questions I had. I would really like definitely come back here”",
     user: {
-      avatar: "../../images/page 3/avatar-1.jpg",
+      avatar: "../../images/page3/avatar-1.jpg",
       title: "Personal Loan",
       name: "Donny J. Griffin",
     },
@@ -13,7 +13,7 @@ const testimonialsList = [
     title:
       "“I had a good experience with Insight Loan Services. I am thankful to insight for the help you guys gave me. My loan was easy and fast. thank you Insigtht”",
     user: {
-      avatar: "../../images/page 3/avatar-2.jpg",
+      avatar: "../../images/page3/avatar-2.jpg",
       title: "Education Loan",
       name: "Mary O. Randle",
     },
@@ -23,7 +23,7 @@ const testimonialsList = [
     title:
       "“We came out of their offices very happy with their service. They treated us very kind. Definite will come back. The waiting time was very appropriate.”",
     user: {
-      avatar: "../../images/page 3/avatar-4.jpg",
+      avatar: "../../images/page3/avatar-4.jpg",
       title: "Car Loan",
       name: "Lindo E. Olson",
     },
