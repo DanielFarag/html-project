@@ -1,0 +1,521 @@
+
+
+body {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: var(--black);
+}
+
+
+
+
+.btn {
+    background-color: var(--primary); 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block; 
+    transition: background-color 0.3s ease; 
+    font-size: 14px;
+}
+/* ==================================
+   Top Bar Styles
+   ================================== */
+
+.top-bar {
+    background-color: #f0f0f0; 
+    padding: 15px 0; 
+    position: sticky; 
+    top: 0; 
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.top-bar-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+/* ==================================
+   Logo Area Styles
+   ================================== */
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex; 
+    align-items: center;
+    text-decoration: none; 
+    color: var(--black); 
+}
+
+.logo-image {
+    height: 40px; 
+    margin-right: 10px; 
+}
+
+
+
+/* ==================================
+   Contact Info Styles
+   ================================== */
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em; 
+    color: #555; 
+    flex-wrap: wrap;
+}
+
+
+
+.phone-number {
+    color: #414243; 
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.phone-number:hover,
+.phone-number:focus {
+    text-decoration: underline;
+}
+
+
+/* ==================================
+   Buy Button Styles
+   ================================== */
+
+
+
+.buy-button {
+  
+}
+
+.buy-button:hover,
+.buy-button:focus {
+    background-color: #512da8;
+}
+
+
+
+/* ==================================
+   Hero Section Styles
+   ================================== */
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/lp-car-image.jpeg");
+    padding: 80px 0; 
+}
+
+.hero-text {
+    color: #fff; 
+}
+
+.hero-title {
+    font-size: 3em; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-title-bold {
+    color: #007bff; 
+}
+
+.hero-features-list {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    max-width: 400px;
+}
+
+.hero-features-list li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.hero-percentage {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.percentage-value {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.percentage-text {
+    font-size: 1rem;
+    color: #f8f9fa; 
+}
+
+
+
+
+
+/* ==================================
+   Form Card Styles (Right Side)
+   ================================== */
+.hero-form {
+}
+
+.form-card {
+    background-color: white; 
+    border-radius: 5px;
+    padding: 24px;
+}
+
+.form-title {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-description {
+    color: var(--grey);
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.range-input {
+    display: flex;
+    align-items: center;
+}
+
+.form-range {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.range-value {
+    font-weight: bold;
+    color: #555;
+}
+
+
+.submit-button {
+    background-color: #673ab7; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+}
+
+.submit-button:hover,
+.submit-button:focus {
+    background-color: #512da8;
+}
+
+
+/* ==================================
+   Reason to Choose Us Section Styles
+   ================================== */
+.reason-section {
+    padding: 60px 0; 
+}
+
+.reason-content-area {
+    padding-left: 80px;
+}
+
+.reason-section-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+.reason-section-description {
+    color: #555; 
+    font-size: 1.1em;
+    margin-bottom: 30px; 
+    line-height: 1.7;
+}
+
+
+
+
+.reason-image {
+    width: 100%; /* Make image responsive within its column */
+    display: block; /* Prevent extra space below image in some cases */
+    border-radius: 8px; 
+}
+
+
+/* ==================================
+   Feature List Styles
+   ================================== */
+.feature-list {
+   
+}
+
+.feature-item {
+    display: flex; 
+    align-items: flex-start; 
+    padding: 15px 0; 
+    margin: 16px;
+}
+
+
+
+
+
+.feature-content {
+   margin-left: 16px;
+}
+
+.feature-title {
+    font-size: 1.2em; 
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+.feature-description {
+    font-size: 1rem; 
+    color:var(--grey);
+    line-height: 1.5;
+}
+
+/* Remove padding from the last feature item to avoid extra bottom spacing */
+.feature-list > .feature-item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+    padding-bottom: 0;    /* Remove bottom padding from the last item */
+}
+
+.reviews {
+    text-align: center;
+    padding: 88px 0;
+    background-color: #ccc;
+}
+
+.reviews-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.reviews-subtitle {
+    font-size: 1rem;
+    color: var(--grey);
+    margin-bottom: 60px;
+}
+
+.reviews-section {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+  }
+  .reviews-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .reviews-section .subtitle {
+    color: gray;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  .review {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    margin: 15px;
+
+  }
+  .review p {
+    font-style: italic;
+    color: #555;
+  }
+  .stars {
+    color: gold;
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  .author {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .qa-section {
+    padding: 100px 0;
+    background-color: #F8F9FA;
+  }
+
+  .offer-card {
+    padding: 40px;
+  
+}
+
+.offer-icon {
+    width: 60px; 
+    height: 60px;
+    margin-bottom: 20px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer-title {
+    font-size: 1.75rem; 
+    font-weight: bold; 
+    margin: 30px 0 20px 0;
+}
+
+.offer-description {
+    color: var(--grey); 
+    font-size: 1rem; 
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+
+.get-started-button:hover {
+    background-color: #7a44e0; 
+}
+
+  .accordion {
+    max-width: 600px;
+    margin: auto;
+}
+
+.accordion-item {
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    background: #fff;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-header:hover {
+    background: #e9ecef;
+}
+
+.accordion-icon {
+    font-size: 1.2rem;
+    color: #6236FF;
+    transition: transform 0.3s;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+    background: white;
+    color: #555;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(45deg);
+}
+
+
+/* ==================================
+   support
+   ================================== */
+
+   .support {
+    padding: 88px 0;
+   }
+
+   .card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.support-card-icon {
+    font-size: 40px;
+    color: #6236FF;
+    margin-bottom: 1.4rem;
+}
+
+.card .support-card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.card .support-card-subtitle {
+    font-size: 14px;
+    margin-bottom: 2rem;
+    color: var(--grey);
+}
+
+.card .support-card-action {
+    color: #6236FF;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.support-card-phone {
+    font-weight: bold;
+    color: #414243;
+    margin-bottom: 1rem;
+}
+
+.support-card-email {
+    color: #414243;
+    display: inline-block;
+    margin-bottom: 1.2rem;
+}

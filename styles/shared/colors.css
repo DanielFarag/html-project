@@ -1,8 +1,11 @@
 :root{
 	--primary:#624bff;
 	--primary-darker:#4730df;
+	--black: #151E28;
+	--grey: #6c757d;
 }
 
 .bg-primary{
 	background-color: var(--primary);
 }
+
