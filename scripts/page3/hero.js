@@ -1,6 +1,6 @@
 const heroSlides = [
   {
-    image: "../../images/page3/student-slider-1.jpg",
+    avatar: "./images/page3/student-slider-1.jpg",
     header: "Education Loan Rate Low Of Interest.",
     description: [
       "The low rate you need for the need you want! Call",
@@ -12,7 +12,7 @@ const heroSlides = [
     },
   },
   {
-    image: "../../images/page3/student-slider-2.jpg",
+    avatar: "./images/page3/student-slider-2.jpg",
     header: "Helping Student Build a Stronger Tomorrow.",
     description: ["The low rate you need for the need you want! Call"],
     button: {
@@ -21,7 +21,7 @@ const heroSlides = [
     },
   },
   {
-    image: "../../images/page3/student-slider-3.jpg",
+    avatar: "./images/page3/student-slider-3.jpg",
     header: "Award winning Education loans",
     description: ["The low rate you need for the need you want! Call"],
     button: {
