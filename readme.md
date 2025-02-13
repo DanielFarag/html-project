@@ -1,8 +1,8 @@
 ## Live URl
-Index: [Link](https://danielfarag.github.io/html-project/)
-Car Loan: [Link](https://danielfarag.github.io/html-project/car-loan.html)
-Students Loan: [Link](https://danielfarag.github.io/html-project/students-loan.html)
-Credit Card: [Link](https://danielfarag.github.io/html-project/credit-card.html)
+- Index: [Link](https://danielfarag.github.io/html-project/)
+- Car Loan: [Link](https://danielfarag.github.io/html-project/car-loan.html)
+- Students Loan: [Link](https://danielfarag.github.io/html-project/students-loan.html)
+- Credit Card: [Link](https://danielfarag.github.io/html-project/credit-card.html)
 
 ## Page Structure
 - ./`{page-name}`.html
