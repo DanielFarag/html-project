@@ -1,0 +1,97 @@
+.page3Hero {
+  max-width: 100%;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slides,
+.slide {
+  position: relative;
+}
+.page3Hero .slide {
+  display: none;
+  /* opacity: 0; */
+  transition: opacity 0.5s ease-in-out;
+}
+.page3Hero .slide img {
+  min-width: 100%;
+  min-height: 100%;
+}
+.heroCaption {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  color: #fff;
+  z-index: 1;
+  max-width: 30%;
+}
+.heroCaption h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.heroCaption p {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.page3Hero .slides .nextButton,
+.page3Hero .slides .prevButton {
+  position: absolute;
+  top: 50%;
+  padding: 20px;
+  z-index: 2;
+  width: 40px;
+  text-align: center;
+  padding: 10px 15px;
+  display: block;
+  background-color: var(--light);
+  outline: none;
+  border: 1px solid #e9ecef;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  color: #ced4da;
+  font-weight: bolder;
+}
+.page3Hero .slides .nextButton:hover,
+.page3Hero .slides .prevButton:hover {
+  background-color: var(--primary);
+  border-color: var(--primary-darker);
+}
+.page3Hero .slides .slide .mainButton {
+  background-color: var(--primary);
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.page3Hero .slides .slide .mainButton a {
+  color: #fff;
+  text-decoration: none;
+}
+.page3Hero .slides .nextButton {
+  right: 20px;
+}
+.page3Hero .slides .prevButton {
+  left: 20px;
+}
+.page3Hero .slides .active {
+  display: block !important ;
+  animation: slideInRight 0.5s ease-in-out;
+  /* opacity: 1; */
+}
+
+@keyframes slideInRight {
+  from {
+    /* opacity: 0; */
+    transform: translateX(100%);
+  }
+  to {
+    /* opacity: 1; */
+    transform: translateX(0);
+  }
+}

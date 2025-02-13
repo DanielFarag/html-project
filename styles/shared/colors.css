@@ -1,11 +1,11 @@
-:root{
-	--primary:#624bff;
-	--primary-darker:#4730df;
-	--black: #151E28;
-	--grey: #6c757d;
+:root {
+  --primary: #624bff;
+  --primary-darker: #4730df;
+  --black: #151e28;
+  --grey: #6c757d;
+  --light: #f8f9fa;
 }
 
-.bg-primary{
-	background-color: var(--primary);
+.bg-primary {
+  background-color: var(--primary);
 }
-
