@@ -59,10 +59,12 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class = "row">
                 ${featuresList
                   .map(({ icon, title, description }) => {
-                    return ` <div class = "col-sm-12 col-md-6 col-4 featuresCard">
-                            ${icon}
-                            <h3>${title}</h3>
-                            <p>${description}</p>      
+                    return ` <div class = "col-sm-12 col-md-6 col-4 p-3">
+                              <div class = "featuresCard" >
+                                 ${icon}
+                                <h3>${title}</h3>
+                                <p>${description}</p>  
+                            </div>    
                         </div>`;
                   })
                   .join("")}
@@ -70,6 +72,5 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     
     `;
-
   featuers.innerHTML = content;
 });

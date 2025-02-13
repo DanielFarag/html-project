@@ -4,6 +4,9 @@
   --black: #151e28;
   --grey: #6c757d;
   --light: #f8f9fa;
+  --success: #22bb33;
+  --danger: #bb2124;
+  --gray-light: #e9ecef;
 }
 
 .bg-primary {

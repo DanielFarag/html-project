@@ -1,0 +1,36 @@
+.educationLoan {
+  margin: 20px 0px;
+  min-height: 50vh;
+  background-color: var(--light);
+  padding: 3rem;
+}
+
+.educationLoanCards {
+  padding: 1rem 0.5rem;
+  background-color: #fff !important;
+}
+.educationLoanCards .cardTitle {
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.educationLoanCards ul {
+  padding: 1rem;
+  margin: 1rem;
+}
+.educationLoanCards ul li {
+  margin: 20px 0px;
+  position: relative;
+}
+
+.text-success {
+  color: var(--success);
+}
+.text-danger {
+  color: var(--danger);
+}
+.educationLoanCards ul li i {
+  position: absolute;
+  left: -1.5rem;
+  top: 0px;
+}

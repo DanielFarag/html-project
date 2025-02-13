@@ -1,0 +1,39 @@
+.testimonials {
+  margin: 20px 0px;
+  min-height: 50vh;
+  background-color: var(--light);
+}
+
+.testimonialsCards {
+  margin: 20px;
+}
+.testimonialsCards .quote {
+  font-style: italic;
+  font-weight: bold;
+  color: var(--grey);
+  line-height: 1.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 20, 0.08), 0 1px 2px rgba(0, 0, 20, 0.08) !important;
+  padding: 2rem;
+}
+.testimonialsCards .user {
+  margin-top: 2rem;
+}
+.testimonialsCards .avatar {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 10px;
+}
+
+.testimonialsCards .user .userInfo {
+  padding: 0px;
+}
+.testimonialsCards .user .userInfo h4 {
+  font-weight: bolder;
+  margin: 5px 0px;
+}

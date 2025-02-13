@@ -1,6 +1,7 @@
 .page3Hero {
   max-width: 100%;
   overflow: hidden;
+  min-height: 80vh !important;
 }
 .slides {
   display: flex;
@@ -93,5 +94,24 @@
   to {
     /* opacity: 1; */
     transform: translateX(0);
+  }
+}
+
+@media (min-width: 798px) and (max-width: 1024px) {
+  .heroCaption {
+    left: 5%;
+  }
+}
+
+@media (max-width: 798px) {
+  .heroCaption {
+    left: 1%;
+    top: 25%;
+  }
+  .heroCaption h2 {
+    font-size: 1em;
+  }
+  .heroCaption p {
+    font-size: 1rem;
   }
 }

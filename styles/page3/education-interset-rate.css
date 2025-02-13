@@ -1,0 +1,38 @@
+.educationInterest {
+  margin: 2rem;
+}
+
+.educationIntersetItem {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--light);
+  margin: 0px;
+  padding: 1rem;
+  border: solid 1px var(--gray-light);
+  border-bottom: none;
+  border-radius: 5px;
+  color: var(--grey);
+}
+.educationIntersetItem:first-child {
+  background-color: var(--primary) !important;
+  color: var(--light);
+}
+.educationIntersetItem:last-child {
+  border-bottom: solid 1px var(--gray-light);
+}
+
+.precentCard {
+  border: solid 1px var(--gray-light);
+  width: fit-content;
+  min-width: 80%;
+  padding: 2rem 1rem;
+  margin: 5px;
+}
+.precentCard .precent {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.precentCard .caption {
+  color: var(--grey);
+  font-size: small;
+}
