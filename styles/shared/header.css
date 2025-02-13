@@ -69,7 +69,7 @@ header #main-header #menu ul li.dropdown > a::after{
 	content: "\2304";
 	color: rgb(148, 148, 148);
 	position: absolute;
-	top: -3px;
+	top: -8px;
 	right: -6px;
 	font-size: 20px;
 	transition: color 0.1s;
